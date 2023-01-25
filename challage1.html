@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form </title>
+    <link rel="stylesheet" href="challange.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Contact Us </div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">full name</span>
+                    <input type="text" placeholder="enter your name" required >
+                </div>
+                <div class="input-box">
+                    <span class="details">username</span>
+                    <input type="text" placeholder="enter your username" required >
+                </div>
+                <div class="input-box">
+                    <span class="details">email</span>
+                    <input type="email" placeholder="enter your email" required >
+                </div>
+                <div class="input-box">
+                    <span class="details">phone number</span>
+                    <input type="number" placeholder="enter your phone number" required >
+                </div>
+                <div class="input-box">
+                    <span class="details">password</span>
+                    <input type="password" placeholder="enter your password" required >
+                </div>
+                <div class="input-box">
+                    <span class="details">confirm password</span>
+                    <input type="password" placeholder="confirm your password" required >
+                </div>
+               
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-titles">gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">prefer not to say </span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="payment-title"> payment information </div>
+      <div class="card-details">
+       <div class="cardtypetext">Card Type:</div> 
+        <select name="card_type" id="card_type" required>
+          <option value="">---select---</option>
+          <option value="visa">visa</option>
+          <option value="mastercard">mastercard</option>
+          <option value="rupay">rupay</option>
+        </select>
+      </div>
+
+      <div class="cardnumber">
+        <div class="input-box">
+            <span class="cardnumberdetails">card number:</span>
+            <input type="text" placeholder="enter card number" required >
+        </div>
+        <div class="input-box">
+            <span class="carddatedetails">expiry date:</span>
+            <input type="date" placeholder="enter exp of card" required >
+        </div>
+      </div>
+
+            <div class="button">
+                <input type="submit" value="register">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
